@@ -13,5 +13,7 @@ shape = (5,2)
 print(np.zeros(shape))
 
 import mod
-
 print(mod.plus_one(9))
+
+import torch
+print(torch.__version__)
